@@ -1,3 +1,1 @@
-console.log('hello typescript');
-console.log('hello typescript');
-console.log('hello typescript');
+console.log('Version 1.0.0');
