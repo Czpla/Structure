@@ -21,7 +21,7 @@ export class SearchBinRecursive {
 
     private searchBin(
         float: number,
-        array: Array<string | number>,
+        array: number[],
         interation: number,
     ): Filter {
         const sizeNewArray = Math.round(array.length / 2);
