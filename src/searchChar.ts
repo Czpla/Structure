@@ -6,7 +6,7 @@ interface Filter {
 }
 
 export class SearchChar {
-    private data: Array<string | number>;
+    private data: string[];
 
     constructor() {
         this.data = new GenerateArray().generateRandonChars(10);
